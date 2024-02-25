@@ -1,2 +1,2 @@
 def say_hello():
-    print('Hi there!')
+    return 'Hi there!'

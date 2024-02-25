@@ -1,5 +1,7 @@
-import pandas as pd
+from function_code import say_hello
 
-print('Hi there!')
 
-print('Are you there?')
+def test_say_hello():
+    assert say_hello() == "Hi there!"
+
+
